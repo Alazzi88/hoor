@@ -397,13 +397,26 @@ height: auto;
  border-radius: 5px;
 
 }
+
 .link-card:hover{
   background-color: orange;
   color: #fff;
 }
 
-
-
+.card-body p{
+  margin-top: 20px;
+  background-color: antiquewhite;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  color: #000;
+border-radius: 10px;
+}
+.price{
+background-color: red;
+color: #000;
+}
 
 .social-media-icons {
   width: 30%;
