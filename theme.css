@@ -12,8 +12,13 @@
 
 }
 .dark .dropdown_menu.open {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: white;
 
+
+}
+
+.dark .dropdown_menu.open li a{
+  color: black;
 }
 
 .dark .container {
