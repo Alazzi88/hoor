@@ -1,8 +1,8 @@
-const toggleBtn = document.querySelector(".toggle_btn");
-const toggleBtnIcon = document.querySelector(".toggle_btn i");
-const dropDownMenu = document.querySelector(".dropdown_menu");
-const ChangeMood = document.querySelector(".darkmood i");
-const DarkOrLightMood = document.querySelector(".theme");
+// const toggleBtn = document.querySelector(".toggle_btn");
+// const toggleBtnIcon = document.querySelector(".toggle_btn i");
+// const dropDownMenu = document.querySelector(".dropdown_menu");
+// const ChangeMood = document.querySelector(".darkmood i");
+// const DarkOrLightMood = document.querySelector(".theme");
 const forMore = document.querySelectorAll(".plus");
 
 // // list menu
