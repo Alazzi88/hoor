@@ -1,20 +1,20 @@
-// const toggleBtn = document.querySelector(".toggle_btn");
-// const toggleBtnIcon = document.querySelector(".toggle_btn i");
-// const dropDownMenu = document.querySelector(".dropdown_menu");
-// const ChangeMood = document.querySelector(".darkmood i");
-// const DarkOrLightMood = document.querySelector(".theme");
+const toggleBtn = document.querySelector(".toggle_btn");
+const toggleBtnIcon = document.querySelector(".toggle_btn i");
+const dropDownMenu = document.querySelector(".dropdown_menu");
+const ChangeMood = document.querySelector(".darkmood i");
+const DarkOrLightMood = document.querySelector(".theme");
 const forMore = document.querySelectorAll(".plus");
 
-// // list menu
-// toggleBtn.onclick = function () {
-//   dropDownMenu.classList.toggle("open");
-//   const isOpen = dropDownMenu.classList.contains("open");
-//   toggleBtnIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
-// };
-// // dark mood
-// ChangeMood.onclick = function () {
-//   DarkOrLightMood.classList.toggle("dark");
-// };
+// list menu
+toggleBtn.onclick = function () {
+  dropDownMenu.classList.toggle("open");
+  const isOpen = dropDownMenu.classList.contains("open");
+  toggleBtnIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+};
+// dark mood
+ChangeMood.onclick = function () {
+  DarkOrLightMood.classList.toggle("dark");
+};
 
 // more details
 forMore.forEach((item) => {
