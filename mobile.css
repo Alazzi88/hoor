@@ -1,0 +1,183 @@
+@media (max-width :992px) {
+  .navbar .links {
+    display: none
+  }
+
+  .dropdown_menu,
+  .navbar .toggle_btn {
+    display: block
+  }
+
+  .main-container {
+    display: block;
+    flex-direction: column
+  }
+
+  .navmenu {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  header {
+    width: 100%
+  }
+
+  body {
+    width: 990px
+  }
+
+  .container {
+    width: 90% !important;
+    justify-content: center;
+    align-items: center
+  }
+
+  .dropdown_menu.open {
+    background-color: orange;
+    width: auto;
+    height: 230px
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column
+  }
+}
+
+@media (max-width :570px) {
+
+  .about-box,
+  .about-box p {
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  footer,
+  h1 {
+    text-align: center
+  }
+
+  .container,
+  video {
+    width: 90% !important
+  }
+
+  .navbar .logo {
+    padding: 0 10px
+  }
+
+  .dropdown_menu.open {
+    background-color: orange;
+    height: 170px
+  }
+
+  .dropdown_menu.open li {
+    padding: 2px 10px;
+    width: 250px
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center
+  }
+
+  h1 {
+    font-size: 20px !important;
+    width: 200px !important;
+    padding: 5px 10px;
+    font-weight: 700
+  }
+
+  .about-box p {
+    font-size: 14px !important;
+    width: 250px
+  }
+
+  .about-box img {
+    width: 350px !important;
+    margin-left: auto !important
+  }
+
+  .about-box {
+    display: block;
+    align-items: center !important
+  }
+
+  body {
+    max-width: 450px !important
+  }
+
+  .active {
+    width: 100%;
+    padding: 0
+  }
+
+  .img {
+    width: 100px !important
+  }
+
+  .images-store {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center
+  }
+
+  .card .card-img-top {
+    width: 300px !important
+  }
+
+  .social-media-icons {
+    width: 177px !important;
+    padding: 5px 10px !important
+  }
+
+  .link-card {
+    width: 157px !important
+  }
+
+  .card-title {
+    width: 150px !important;
+    font-size: 20px
+  }
+
+  .events,
+  .gallery {
+    display: flex;
+    flex-direction: column
+  }
+
+  footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+  }
+
+  video {
+    margin: 20px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #fff
+  }
+
+  .viddom {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .vid-golden-dom {
+    margin: 10px;
+    width: 100px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #000
+  }
+}

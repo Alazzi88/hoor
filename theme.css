@@ -1,0 +1,56 @@
+
+/* change Mood*/
+
+.dark {
+  /* background-image: url("/img/vid.mp4"); */
+  color: #fff;
+  background-color: rgb(8, 8, 7);
+}
+
+.dark .imglogo img {
+  box-shadow: 3px 3px 3px white;
+
+}
+.dark .dropdown_menu.open {
+  background-color: white;
+
+
+}
+
+.dark .dropdown_menu.open li a{
+  color: black;
+}
+
+.dark .container {
+  color: white;
+  background-color: gray;
+}
+.dark.card{
+  color: #fff;
+  background-color: gray;
+}
+
+.darkmood {
+  cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+}
+.dark .card {
+  background-color: rgba(21, 20, 20, 0.676);
+  color: #fff;
+
+}
+.dark h3 {
+  color: black;
+}
+.dark .card-body p{
+  color: #fff;
+  background-color: black;
+}
+.dark .line {
+  background-color:#fff;
+}
+footer .dark{
+color: #fff;
+
+}
